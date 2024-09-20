@@ -1,0 +1,147 @@
+:root {
+    --head-banner-head-border-radius: 20px
+}
+
+html, body, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.head {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/images/banner.jpg');
+    background-size: 101%;
+    background-position-y: -61px;
+}
+
+.head-banner {
+    height: 23.4%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 12% 0 13%;
+}
+
+.head-banner-head {
+    width: 100%;
+    background-color: rgba(220, 220, 220, 0.7);
+    height: 42%;
+    border-bottom-left-radius: var(--head-banner-head-border-radius);
+    border-bottom-right-radius: var(--head-banner-head-border-radius);
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-banner-head ul {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 3%;
+    display: flex;
+    align-items: center;
+}
+
+.head-banner-head-msg li {
+    margin-left: 30px;
+}
+
+.head-banner-head-msg li:nth-child(1) {
+    margin-left: 0;
+}
+
+.head-banner-head-opt li {
+    margin-right: 30px;
+}
+
+.head-banner-head-opt li:nth-child(-1) {
+    margin-right: 0;
+}
+
+.head-banner-body {
+    width: 100%;
+    height: 58%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-banner-body-title {
+    font-size: 3em;
+    color: #e9665c;
+}
+
+.head-banner-body-opt {
+    display: flex;
+}
+
+.head-banner-body-opt ul {
+    display: flex;
+}
+
+.head-banner-body-opt ul li {
+    color: white;
+    font-size: 1.5em;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.head-banner-body-opt-msg {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.head-body {
+    width: 100%;
+    height: 76%;
+    position: relative;
+}
+
+.head-body-content {
+    position: absolute;
+    top: 26%;
+    right: 0;
+    width: 43.5%;
+}
+
+.head-body-content-card {
+    /* background-color: #f4c1ac; */
+    background-color: rgba(211, 154, 125, 0.5);
+    width: 100%;
+    height: 33vh;
+}
+
+.head-body-content-botton {
+    width: 100%;
+    height: 6.5vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.head-body-content-botton .btn {
+    min-width: 10.3vw;
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-body-content-botton-explore {
+    background-color: #ff5d56;
+    color: white;
+    margin-right: 23px;
+}
+
+.head-body-content-botton-show {
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    margin-right: 40px;
+}
