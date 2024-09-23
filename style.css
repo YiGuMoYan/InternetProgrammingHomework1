@@ -316,6 +316,307 @@ ul {
     z-index: 0;
 }
 
+.arrival {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrival-line {
+    width: 15%;
+    background: #000;
+    height: 1px;
+}
+
+.arrival h2 {
+    width: 100%;
+    color: #000;
+    font-size: 3em;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding: 0.4em 0 1em;
+}
+
+.arrival-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrival-btns {
+    width: 50%;
+}
+
+.arrival-btns li {
+    color: #000;
+    font-size: 1.4em;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+    padding: 6px;
+    border: 2px solid #000;
+    width: 26%;
+    text-align: center;
+}
+
+.arrival-imgs {
+    width: 100%;
+    display: flex;
+    padding: 2em 1em;
+}
+
+.arrival-imgs li {
+    position: relative;
+    width: calc(100% / 3);
+    height: 570px;
+}
+
+.arrival-imgs li img {
+    width: 100%;
+    height: 100%;
+}
+
+.arrival-pos {
+    position: absolute;
+}
+
+.arrival-text {
+    top: 1%;
+    right: 1%;
+    color: #fff;
+    font-size: 1.3em;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    display: block;
+    padding: 1em 0 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.arrival-new {
+    background: #ae85d7;
+}
+
+.arrival-sale {
+    background: #ff5d56;
+    line-height: 0.8em;
+}
+
+.arrival-sale span {
+    font-size: 14px;
+}
+
+.steve {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.steve {
+    background: url(images/back.jpg) center;
+    width: 100%;
+    min-height: 335px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    text-align: center;
+}
+
+.steve .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steve p {
+    color: #fff;
+    font-size: 2.8em;
+    font-family: 'Roboto Slab', serif;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0 0.5em;
+    line-height: 1.5em;
+}
+
+.steve .line {
+    width: 10%;
+    background: #fff;
+    height: 1px;
+}
+
+.steve span {
+    color: #fff;
+    font-size: 3em;
+    margin: 0.1em 0 0;
+    display: block;
+}
+
+.news {
+    margin-top: 3em;
+}
+
+.news h3 {
+    color: #000;
+    font-size: 2.4em;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    margin: 0 0.4em;
+}
+
+.news-msg {
+    margin: 4em 0;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.news-msg-left {
+    width: calc(100% / 3 * 2);
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.news-msg-left ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-msg-left ul li {
+    width: 100%;
+    display: flex;
+    height: 45%;
+}
+
+.news-msg-left ul li .imgs {
+    width: 50%;
+    height: 100%;
+}
+
+.news-msg-left-text {
+    width: 50%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.news-msg-left-text p {
+    color: #000;
+    font-size: 1em;
+    margin: 1.5em 0;
+    line-height: 1.4em;
+}
+
+.news-msg-left-text-title h4 {
+    color: #000;
+    font-size: 2.6em;
+}
+
+.news-msg-left-text-title span {
+    color: #000;
+    font-size: 0.9em;
+}
+
+.news-msg-right {
+    width: 33.3%;
+    position: relative;
+    height: 100%;
+}
+
+.news-msg-right img {
+    position: absolute;
+    width: 100%;
+}
+
+.news-msg-right-msg {
+    position: absolute;
+    top: 0;
+    background: rgba(255, 93, 86, 0.3);
+    padding: 4em 1em 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.news-msg-right-msg h4 {
+    font-size: 2.5em;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.news-msg-right-msg p {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 100;
+    margin: 0em 0;
+    line-height: 1.5em;
+}
+
+.news-msg-right-msg span {
+    font-size: 8em;
+    color: #fff;
+    font-weight: 100;
+    display: block;
+    padding: 0.2em 0;
+}
+
+.readmore {
+    background: none;
+    border: 2px solid #000;
+    color: #000;
+    padding: 0.3em 0.7em;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+}
+
+.news-msg-left-bak {
+    background: #c4153c;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.news-msg-left-bak h5 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.news-msg-left-bak span {
+    color: #fff;
+    font-size: 7em;
+    font-weight: 100;
+}
+
+.best {
+    position: relative;
+    text-align: right;
+    margin-bottom: 4em;
+}
+
+.best-fit {
+    position: absolute;
+    top: 26%;
+    right: 5%;
+    color: #fff;
+}
+
+.best-fit h6 {
+    font-size: 2.2em;
+    font-weight: 300;
+}
+
+.best-fit p {
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
 @media (max-width:568px) {
     .header-top-in {
         padding: 0 0.5em 0.5em;
