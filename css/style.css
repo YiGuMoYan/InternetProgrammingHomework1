@@ -175,6 +175,13 @@ ul {
     color: #000;
 }
 
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .content-cards {
     padding: 3em 0;
     box-sizing: border-box;
